@@ -4,7 +4,6 @@ import { StyleSheet, Text, View, Pressable } from 'react-native';
 import AppText from './AppText.js';
 import * as Location from 'expo-location';
 import { useState } from 'react';
-import { useSyncExternalStore } from 'react';
 import ExpoStatusBar from 'expo-status-bar/build/ExpoStatusBar.js';
 
 export default function App() {
